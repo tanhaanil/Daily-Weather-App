@@ -40,17 +40,8 @@ There will be usage of static images in the background which will be in motion t
 
 ## Why We Made Weather App?
 
-Now the thing is why we made weather app whereas in every smartphone weather app is installed by default or it can be seen directly from site. Why would anyone bother to download app?
+Now the thing is why we made weather app whereas in every smartphone weather app is installed by default or it can be seen directly from site. Why would anyone bother to download app? Mainly our main focus was on REST API. Because now-a-days, software industry uses REST API a lot for their apps as they need to be connected with server. With REST API, we can send data to the server, retrieve data from the server, update existing data, delete data and perform authentication operations. Similar functionalities can be achieved using Firebase too. But not everyone uses Firebase. Many companies create their own backend systems and provide services through REST APIs. Many can buy a domain and then build backend with Laravel. For advanced level, backend can be created with Node.js or Spring Boot. But mobile app developers prefer using REST APIs because there is no extra hassle of creating backend infrastructure when a service provider has already created the backend system for us. We will just grab that data from there and show it into our app. There is no need to be concerned with handling the weather database directly. REST API will be provided to us and we will just call that to bring data.  
+We used HTTP library. There are more popular libraries out there like Retrofit, Dio and other networking-related libraries.As HTTP library is Dart’s official package, we used it.
 
-Mainly our main focus was on REST API. Because now-a-days, software industry uses REST API a lot for their apps as they need to be connected with server.  
-With REST API, we can send data to the server, retrieve data from the server, update existing data, delete data and perform authentication operations.  
-Similar functionalities can be achieved using Firebase too. But not everyone uses Firebase. Many companies create their own backend systems and provide services through REST APIs.  
-Many can buy a domain and then build backend with Laravel. For advanced level, backend can be created with Node.js or Spring Boot.  
-But mobile app developers prefer using REST APIs because there is no extra hassle of creating backend infrastructure when a service provider has already created the backend system for us.  
-We will just grab that data from there and show it into our app. There is no need to be concerned with handling the weather database directly.  
-REST API will be provided to us and we will just call that to bring data.  
-We used HTTP library. There are more popular libraries out there like Retrofit, Dio and other networking-related libraries.  
-As HTTP library is Dart’s official package, we used it.
-
-Now we will describe in detail about our features.
+Know more information about the implementation in the pdf.
 👉 **[View Live Demo](https://daily-weather-coral.vercel.app/)**

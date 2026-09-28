@@ -1,6 +1,6 @@
 # Daily Weather App
 
-**Project Type:** Software  
+  
 **Framework:** Flutter  
 **Programming Language:** Dart  
 **Backend and frontend communication:** REST API  
